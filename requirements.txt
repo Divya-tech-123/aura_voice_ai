@@ -12,8 +12,8 @@ requests>=2.31.0
 # Testing
 pytest>=8.0.0
 
-# Phase 2 (Intent Classification):
-torch>=2.0.0
+# Phase 2 (Optional: PyTorch Intent Model; lightweight fallback used in serverless / Vercel environments):
+# torch>=2.0.0
 
 # --- Phase Dependencies (uncomment as needed in future phases) ---
 # Phase 3 (LLM Providers):

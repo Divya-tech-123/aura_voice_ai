@@ -7,9 +7,11 @@ RAG / Tool Calling -> LLM Brain -> Conversation Memory -> TTS -> Speaker.
 
 import sys
 import logging
-from typing import Optional, List, Set
+from typing import Optional, List, Set, Any, TYPE_CHECKING
 
-from app.brain.intent import IntentClassifier
+if TYPE_CHECKING:
+    from app.brain.intent import IntentClassifier
+
 from app.brain.llm import LLMBrain
 from app.memory.conversation import ConversationMemory
 from app.speech.stt import (
@@ -59,7 +61,7 @@ def is_exit_command(text: str, detected_intent: Optional[str] = None, exit_phras
 
 
 def run_voice_loop(
-    classifier: IntentClassifier,
+    classifier: Any,
     brain: LLMBrain,
     memory: ConversationMemory,
     stt: Optional[BaseSpeechToText] = None,

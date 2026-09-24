@@ -25,7 +25,6 @@ from app.speech.tts import (
     AudioDeviceError,
     TTSProviderError,
 )
-from app.speech.voice_loop import run_voice_loop
 
 __all__ = [
     # STT
@@ -50,3 +49,11 @@ __all__ = [
     # Voice Loop
     "run_voice_loop",
 ]
+
+
+def __getattr__(name: str):
+    """Lazy-load voice_loop components so importing app.speech does not eagerly load voice stack & ML dependencies."""
+    if name == "run_voice_loop":
+        from app.speech.voice_loop import run_voice_loop
+        return run_voice_loop
+    raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
