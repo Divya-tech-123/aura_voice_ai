@@ -1,5 +1,4 @@
-"""Vercel Serverless Function entrypoint for AURA FastAPI backend."""
-import os
+"""AURA FastAPI Entrypoint inside app directory."""
 import sys
 from pathlib import Path
 from fastapi import FastAPI

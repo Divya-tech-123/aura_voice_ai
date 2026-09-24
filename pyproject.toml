@@ -27,4 +27,4 @@ include = ["app*"]
 exclude = ["data*", "models*", "frontend*", "documents*", "tests*"]
 
 [tool.vercel]
-entrypoint = "api/index.py"
+entrypoint = "main:app"
