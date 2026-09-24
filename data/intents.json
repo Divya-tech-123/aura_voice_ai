@@ -1,0 +1,163 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Greetings",
+        "Hi Aura",
+        "Hello Aura"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! Ready to assist you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "Catch you later",
+        "Exit",
+        "Quit",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day.",
+        "See you soon! Take care.",
+        "Catch you later! Reach out if you need anything."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thank you so much",
+        "Much appreciated",
+        "Thanks for the help",
+        "Awesome thanks"
+      ],
+      "responses": [
+        "You are welcome! Happy to help.",
+        "Anytime! Let me know if you need anything else.",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "Tell me the time",
+        "What is the current time",
+        "Do you have the time",
+        "Current clock time",
+        "Can you check the time"
+      ],
+      "responses": [
+        "The current time is checked from the system clock.",
+        "Checking the clock for you right now."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What is today's date",
+        "What date is it today",
+        "Tell me today's date",
+        "What day is it today",
+        "Current date",
+        "What is the date"
+      ],
+      "responses": [
+        "Today's date is retrieved from your calendar/system.",
+        "Here is the current date."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather like",
+        "What is the weather today",
+        "Is it raining outside",
+        "Will it rain today",
+        "What is the temperature",
+        "How is the weather",
+        "Tell me the weather forecast"
+      ],
+      "responses": [
+        "Checking the current weather conditions for you.",
+        "Fetching the latest weather forecast."
+      ]
+    },
+    {
+      "tag": "calculator",
+      "patterns": [
+        "Calculate this for me",
+        "What is 25 times 4",
+        "Calculate 100 divided by 5",
+        "Solve this math problem",
+        "Compute this equation",
+        "Can you do math",
+        "What is 50 plus 70"
+      ],
+      "responses": [
+        "I can perform calculations using the math tool.",
+        "Here is the calculation result."
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "Search the web for",
+        "Can you search for",
+        "Google this information",
+        "Look up information online",
+        "Search for latest AI news",
+        "Find articles about Python"
+      ],
+      "responses": [
+        "Searching the web for your query.",
+        "Let me look that up for you online."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do",
+        "What are your features",
+        "How can you help me",
+        "What are your capabilities",
+        "Tell me what you can do",
+        "Show me your commands"
+      ],
+      "responses": [
+        "I am AURA. I can help with time, date, weather, calculations, web searches, and general queries.",
+        "I can answer questions, look up information, tell time and weather, and run calculations."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "Blah blah blah",
+        "Gibberish qwerty asdf",
+        "Random nonsense words",
+        "Unrecognized input text",
+        "Something unrelated to anything"
+      ],
+      "responses": [
+        "I'm not quite sure I understand. Could you rephrase that?",
+        "Sorry, I don't recognize that intent yet."
+      ]
+    }
+  ]
+}

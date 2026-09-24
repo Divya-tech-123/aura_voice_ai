@@ -1,0 +1,3 @@
+AURA is an AI Unified Response Assistant.
+AURA uses Natural Language Processing, Large Language Models, Memory, Tools, and Retrieval Augmented Generation.
+RAG allows AURA to retrieve relevant information from documents before generating an answer.

@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.key
+*.pem
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Machine Learning & Models
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.onnx
+models/*.pkl
+!models/.gitkeep
+
+# Data & Cache
+data/cache/
+data/uploads/
+!data/.gitkeep
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node / Frontend Build
+node_modules/
+frontend/dist/
+dist/
+.env
+.env.example

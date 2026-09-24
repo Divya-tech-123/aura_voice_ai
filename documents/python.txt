@@ -1,0 +1,100 @@
+1. Python is a high-level, general-purpose programming language.
+2. Python was created by Guido van Rossum.
+3. Guido van Rossum began working on Python in the late 1980s.
+4. Python was first released publicly in 1991.
+5. Python was designed to be easy to read and write.
+6. Python's syntax emphasizes code readability.
+7. Python was influenced by the ABC programming language.
+8. Guido van Rossum worked at Centrum Wiskunde & Informatica.
+9. The name Python was inspired by the comedy group Monty Python.
+10. Python was not named after the snake.
+11. Python originally developed as a successor to the ABC language.
+12. Python supports multiple programming paradigms.
+13. Python supports procedural programming.
+14. Python supports object-oriented programming.
+15. Python supports functional programming.
+16. Python uses indentation to define code blocks.
+17. Python does not require braces for code blocks.
+18. Python uses a colon to introduce an indented block.
+19. Python uses comments beginning with the hash symbol.
+20. Python source files commonly use the .py extension.
+21. Python 2.0 was released in 2000.
+22. Python 2 introduced several important language improvements.
+23. Python 3.0 was released in December 2008.
+24. Python 3 was designed to improve the language.
+25. Python 3 is the modern version of Python.
+26. Python 2 reached its official end of life in 2020.
+27. New projects should generally use Python 3.
+28. Python is dynamically typed.
+29. Python variables do not require explicit type declarations.
+30. Python has built-in support for many data types.
+31. Common Python types include integers.
+32. Python also supports floating-point numbers.
+33. Python has a built-in Boolean type.
+34. Python has strings for text data.
+35. Python lists store ordered collections of values.
+36. Python tuples store ordered immutable collections.
+37. Python sets store unique values.
+38. Python dictionaries store key-value pairs.
+39. Python supports list comprehensions.
+40. List comprehensions provide a concise way to create lists.
+41. Python supports functions using the def keyword.
+42. Python functions can accept parameters.
+43. Python functions can return values.
+44. Python supports default function arguments.
+45. Python supports keyword arguments.
+46. Python supports anonymous functions using lambda.
+47. Python supports modules for organizing code.
+48. Python packages group related modules.
+49. The Python Package Index is commonly called PyPI.
+50. PyPI contains thousands of Python packages.
+51. pip is commonly used to install Python packages.
+52. Virtual environments isolate project dependencies.
+53. The venv module can create Python virtual environments.
+54. Python has a large open-source community.
+55. Python is widely used in education.
+56. Python is widely used in software development.
+57. Python is widely used for automation.
+58. Python is commonly used for web development.
+59. Python is used for data analysis.
+60. Python is heavily used in artificial intelligence.
+61. Python is popular in machine learning.
+62. NumPy is widely used for numerical computing.
+63. pandas is widely used for data analysis.
+64. Matplotlib is commonly used for data visualization.
+65. Scikit-learn provides many machine learning algorithms.
+66. TensorFlow is a popular machine learning framework.
+67. PyTorch is another popular machine learning framework.
+68. Python is commonly used for natural language processing.
+69. Python can process and analyze text data.
+70. Python is used to build chatbots.
+71. Python can communicate with APIs.
+72. Python can work with JSON data.
+73. Python can read and write files.
+74. Python can work with databases.
+75. Python can be used to build REST APIs.
+76. FastAPI is a modern Python web framework.
+77. Flask is a lightweight Python web framework.
+78. Django is a popular Python web framework.
+79. Python supports exception handling.
+80. Exceptions can be handled using try and except.
+81. Python supports object-oriented programming with classes.
+82. Objects are instances of classes.
+83. Python supports inheritance.
+84. Python supports polymorphism.
+85. Python supports encapsulation.
+86. Python supports special methods such as __init__.
+87. Python provides a built-in help system.
+88. Python provides an interactive interpreter.
+89. The Python interpreter can execute code interactively.
+90. Python programs can be run from a terminal.
+91. Python is available on Windows.
+92. Python is available on macOS.
+93. Python is available on Linux.
+94. Python is also used on servers and cloud platforms.
+95. Python scripts can automate repetitive tasks.
+96. Python is commonly used for testing software.
+97. pytest is a popular Python testing framework.
+98. Python continues to evolve through new releases.
+99. Python remains one of the most widely used programming languages.
+100. Python is popular because it combines simplicity, flexibility, and a large ecosystem.

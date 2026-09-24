@@ -1,0 +1,35 @@
+# ==============================================================================
+# AURA — AI Unified Response Assistant
+# Core Dependencies
+# Python 3.11+ required
+# ==============================================================================
+
+# Core & Configuration
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Testing
+pytest>=8.0.0
+
+# Phase 2 (Intent Classification):
+torch>=2.0.0
+
+# --- Phase Dependencies (uncomment as needed in future phases) ---
+# Phase 3 (LLM Providers):
+# openai>=1.12.0
+# google-generativeai>=0.8.0
+
+# Phase 6 (Embeddings, RAG & Document Parsing):
+numpy>=1.26.0
+pypdf>=5.0.0
+python-docx>=1.1.0
+
+# Phase 7 (Speech Processing):
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14
+
+# Phase 11 (FastAPI Backend & API Layer):
+fastapi>=0.110.0
+uvicorn>=0.27.0
+httpx>=0.26.0

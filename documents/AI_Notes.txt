@@ -1,0 +1,18 @@
+# Fundamentals of Machine Learning and AI Notes
+
+1. Supervised Learning:
+Supervised learning is an approach in machine learning where algorithms learn from labeled training data. Each training instance consists of an input feature vector paired with an expected target ground-truth label. Common examples include regression (predicting continuous values like house prices) and classification (categorizing images or spam detection). Popular supervised algorithms include Linear Regression, Support Vector Machines (SVM), Random Forests, and Deep Neural Networks.
+
+2. Unsupervised Learning:
+Unsupervised learning trains models on unlabeled datasets, discovering underlying patterns, groupings, or representations without explicit supervision. Classic examples include K-Means clustering, Principal Component Analysis (PCA), and autoencoders.
+
+3. Overfitting:
+Overfitting occurs when a machine learning model learns the training data too well, memorizing the training noise, outliers, and idiosyncratic details rather than capturing generalizable underlying patterns. An overfitted model achieves near-zero error on the training set but performs poorly and suffers high variance when evaluated on unseen test data.
+
+4. Preventing Overfitting:
+Overfitting can be mitigated through several proven regularization and validation techniques:
+- Cross-validation: Using k-fold cross-validation to assess generalization performance.
+- Regularization: Adding L1 (Lasso) or L2 (Ridge) penalty terms to constrain model weights.
+- Early Stopping: Halting training when validation loss begins to diverge.
+- Dropout: Randomly deactivating units during training in deep neural networks to prevent co-adaptation.
+- Data Augmentation: Expanding the size and diversity of training datasets.
